@@ -14,8 +14,6 @@ import javax.ws.rs.core.Response;
 @Path("/async")
 public class AsyncChunkedService {
 
-	private int count = 0;
-
 	@GET
 	public Response getChunkedResponse() {
 		ChunkedOutput<String> output = new ChunkedOutput<>(String.class);
