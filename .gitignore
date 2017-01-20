@@ -11,6 +11,7 @@
 target
 *.classpath
 *.settings
+*.project
 
 # Packages #
 ############
